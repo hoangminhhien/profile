@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('hdv.create_profile');
+    return view('profile.create_profile');
+});
+Route::get('/search', function () {
+    return view('tour-guide.layout');
 });
 

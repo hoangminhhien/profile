@@ -30,6 +30,14 @@
 				      <input type="text" name="" class="form-control">
 				    </div>
 				</div>
+				<div class="form-group row">
+					<div class="col showImageActivity">
+						<img src="{{ asset('image/upload.jpg') }}" style="width: 10%; cursor: pointer;">
+						<div style="display: none;">
+						<input type="file" name="" class="uploadImageActivity">
+					</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-2">
 				<button type="button" class="btn btn-danger" v-on:click="removeActivity(indexActivity)">

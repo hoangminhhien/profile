@@ -27,13 +27,13 @@
 						<input type="text" name="" class="form-control" style="border: none;font-weight: bold; font-size: 25px" placeholder="Họ tên">
 					</div>
 					<div class="form-group row">
-					    <label class="col-sm-2 col-form-label">Ngày sinh</label>
+					    <label class="col-sm-2 col-form-label font-weight-bold">Ngày sinh</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control" style="border: none;" placeholder="Nhập ngày sinh">
+					      <input type="text" class="form-control">
 					    </div>
 					</div>
 					<div class="form-group row">
-					    <label class="col-sm-2 col-form-label">Giới tính</label>
+					    <label class="col-sm-2 col-form-label font-weight-bold">Giới tính</label>
 					    <div class="col-sm-10">
 					      	<label class="radio-inline">
 						      <input type="radio" name="optradio">   Nam
@@ -47,21 +47,27 @@
 					    </div>
 					</div>
 					<div class="form-group row">
-					    <label class="col-sm-2 col-form-label">Điện thoại</label>
+					    <label class="col-sm-2 col-form-label font-weight-bold">Điện thoại</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control" style="border: none;" placeholder="Nhập số điện thoại">
+					      <input type="text" class="form-control">
 					    </div>
 					</div>
 					<div class="form-group row">
-					    <label class="col-sm-2 col-form-label">Email</label>
+					    <label class="col-sm-2 col-form-label font-weight-bold">Email</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control" style="border: none;" placeholder="Nhập email">
+					      <input type="text" class="form-control">
 					    </div>
 					</div>
 					<div class="form-group row">
-					    <label class="col-sm-2 col-form-label">Địa chỉ</label>
+					    <label class="col-sm-2 col-form-label font-weight-bold">Địa chỉ</label>
 					    <div class="col-sm-10">
-					      <input type="text" class="form-control" style="border: none;" placeholder="Nhập địa chỉ">
+					      <input type="text" class="form-control">
+					    </div>
+					</div>
+					<div class="form-group row">
+					    <label class="col-sm-2 col-form-label font-weight-bold">Link tới fb cá nhân</label>
+					    <div class="col-sm-10">
+					      <input type="text" class="form-control">
 					    </div>
 					</div>
 				</div>
@@ -75,8 +81,8 @@
 			<textarea class="form-control" rows="3"></textarea>
 		</div>
 	</div>
-	@include('hdv.volunteer')
-	@include('hdv.education')
+	@include('profile.volunteer')
+	@include('profile.education')
 	<div class="card class-border" style="border: none;">
 		<div class="card-body">
 			<strong style="font-size: 20px">Điểm mạnh của bản thân</strong>
@@ -91,8 +97,9 @@
 			<textarea class="form-control" rows="3"></textarea>
 		</div>
 	</div>
-	@include('hdv.skill')
-	@include('hdv.activity')
+	@include('profile.skill')
+	@include('profile.skillOther')
+	@include('profile.activity')
 </div>
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -126,6 +133,9 @@
 	  	$('.dateEducation').on('cancel.daterangepicker', function(ev, picker) {
 	      	$(this).val('');
 	  	});
+	  	$('body').delegate('.showImageActivity', 'click', function (){
+	  		console.log(2222)
+	  	})
 	});
 </script>
 </html>
