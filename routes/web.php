@@ -12,14 +12,19 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/manager-calender', function () {
+  return view('schedule/index');
+});
 Route::get('/create', function () {
-    return view('profile.create_profile');
+    return view('create-profile.create_profile');
 });
 Route::get('/search', function () {
     return view('tour-guide.search');
 });
 Route::get('/', function () {
     return view('tour-guide.home');
+});
+Route::get('/profile', function () {
+  return view('profile.index');
 });
 

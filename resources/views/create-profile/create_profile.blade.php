@@ -81,8 +81,8 @@
 			<textarea class="form-control" rows="3"></textarea>
 		</div>
 	</div>
-	@include('profile.volunteer')
-	@include('profile.education')
+	@include('create-profile.volunteer')
+	@include('create-profile.education')
 	<div class="card class-border" style="border: none;">
 		<div class="card-body">
 			<strong style="font-size: 20px">Điểm mạnh của bản thân</strong>
@@ -97,9 +97,9 @@
 			<textarea class="form-control" rows="3"></textarea>
 		</div>
 	</div>
-	@include('profile.skill')
-	@include('profile.skillOther')
-	@include('profile.activity')
+	@include('create-profile.skill')
+	@include('create-profile.skillOther')
+	@include('create-profile.activity')
 </div>
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
