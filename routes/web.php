@@ -27,4 +27,23 @@ Route::get('/', function () {
 Route::get('/profile', function () {
   return view('profile.index');
 });
+Route::get('/create-profile-modal', function () {
+  return view('profile-modal.index');
+});
+Route::get('/education', function () {
+  return view('profile-modal.education');
+});
+Route::get('/certification', function () {
+  return view('profile-modal.certification');
+});
+Route::get('/volunteer', function () {
+  return view('profile-modal.volunteer');
+});
+Route::get('/skill', function () {
+  return view('profile-modal.skill');
+});
+Route::get('/history', function () {
+  return view('profile-modal.history');
+});
+Route::post('/postEducation', 'ProfileController@postEducation')->name('profile.education');
 

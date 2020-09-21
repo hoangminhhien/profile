@@ -39,6 +39,9 @@
 <body>
 <div class="container-fluid">
 	<div id="header">
+		<div class="backgroup-header" style="background-image: url(https://divui.com/blog/wp-content/uploads/2018/10/111111.jpg); height: 400px; width: initial;">
+			
+		</div>
 		<div style="background-color: #2b63ab">
 		<div class="row">
 			<div class="col-1"></div>
