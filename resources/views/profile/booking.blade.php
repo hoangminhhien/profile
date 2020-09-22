@@ -18,15 +18,16 @@
       <div class="col-9 col-xl-10">
         <div id='calendar'></div>
       </div>
-      <div class="col-3 col-xl-2">
+      <div class="col-3 col-xl-2" style="margin: auto">
         <div id="annotate">
           <div id="empty-icon"></div>
-          <p>Còn trống</p>
+          <p class="text-center">Còn trống</p>
           <div id="busy-icon"></div>
-          <p>Đã bận</p>
+          <p class="text-center">Đã bận</p>
         </div>
       </div>
     </div>
+
     <div class="row">
       <div class="col-9 col-xl-10">
         <div id="schedule">
@@ -36,5 +37,6 @@
         </div>
       </div>
     </div>
+
   </div>
 </div>

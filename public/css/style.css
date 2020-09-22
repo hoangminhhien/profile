@@ -53,13 +53,6 @@ header #user {
   font-size: 1em;
 }
 
-@media only screen and (min-width: 1024px) {
-  #btn-newsfeed,
-  #btn-guider {
-    padding: 0;
-  }
-}
-
 #btn-newsfeed {
   background-color: #e88d30;
   width: 100px;
@@ -68,10 +61,6 @@ header #user {
 #btn-guider {
   background-color: #3081e8;
   width: 150px;
-}
-
-#info {
-  width: 100%;
 }
 
 #info-bg {
@@ -94,12 +83,6 @@ header #user {
   padding-right: 5px;
 }
 
-@media only screen and (min-width: 1024px) {
-  #info-share {
-    width: 9em;
-  }
-}
-
 #info-avatar img {
   width: 12em;
   height: 12em;
@@ -108,37 +91,13 @@ header #user {
   border: 3px solid white;
 }
 
-#info-detail {
-  margin-left: 13em;
-  margin-top: 1em;
-}
-
-@media only screen and (min-width: 1024px) {
-  #info-detail li {
-    float: left;
-    width: 13em;
-  }
-}
-
-#info-detail h3 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#info-detail ul {
+#info-detail li {
   list-style-type: square;
-  padding-left: 20px;
 }
 
 #info-contact {
   text-align: center;
   display: inline-block;
-}
-
-@media only screen and (min-width: 1024px) {
-  #info-contact {
-    margin-left: 13em;
-  }
 }
 
 #info-contact #contact-fb,
@@ -169,10 +128,6 @@ header #user {
   margin-top: 20px;
 }
 
-.index {
-  margin-top: 30px;
-}
-
 .index p {
   border-left: 3px solid #c84b17;
   font-size: 1.5em;
@@ -198,18 +153,12 @@ header #user {
   display: inline-block;
 }
 
-.index .btn {
-  float: right;
-  border-radius: 25px;
-  /* background-color: #d2e3fa; */
-}
-
 #score {
   text-align: center;
   width: 4em;
   border: 0.3em solid #e6de03;
   border-radius: 50%;
-  margin-left: 35%;
+  margin: auto;
 }
 
 #score h2 {
@@ -238,11 +187,6 @@ header #user {
   text-align: center;
 }
 
-#annotate #empty-icon p,
-#annotate #busy-icon p {
-  display: block;
-}
-
 #annotate #busy-icon {
   border: none;
   background-color: #ee66aa;
@@ -269,14 +213,8 @@ ul.timeline li {
 }
 
 ul.timeline img {
-  width: 48%;
-}
-
-@media only screen and (min-width: 1024px) {
-  ul.timeline img {
-    width: 300px;
-    height: 200px;
-  }
+  width: 20em;
+  height: 13em;
 }
 
 ul.timeline > li:before {

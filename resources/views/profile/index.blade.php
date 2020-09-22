@@ -37,7 +37,6 @@
 </head>
 
 <body>
-
   <div class="container">
 
     @include('profile.info')

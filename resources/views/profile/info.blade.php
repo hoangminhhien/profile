@@ -16,7 +16,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm offset-5 offset-sm-4 offset-md-3 offset-xl-3">
+      <div class="col-sm offset-5 offset-sm-4 offset-md-3 offset-xl-3 pl-4">
         <div class="row">
           <div class="col-sm">
             <h3>Nguyễn Hoàng Lan</h3>
@@ -42,7 +42,7 @@
       </div>
     </div>
 
-    <div class="row mt-3">
+    <div class="row text-right mt-3">
       <div class="col-sm offset-sm-3 offset-md-3">
         <div id="info-contact">
           <a id="contact-fb" class="btn btn-info">
