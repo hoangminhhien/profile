@@ -127,9 +127,9 @@
                 </i>
               </div>
               <div class="col-10 col-sm-6">
-                <span>Tour Phú Quốc - PYS Travel</span>
+                <span>Tour <b>Phú Quốc - PYS Travel</b></span>
                 <br>
-                <span>Điều hành: Nguyễn Việt</span>
+                <span>Điều hành: <b style="text-decoration: underline">Nguyễn Việt</b></span>
                 <br>
                 <span>Ghi chú: 30 khách, team building</span>
               </div>
@@ -148,9 +148,9 @@
                 </i>
               </div>
               <div class="col-10 col-sm-6">
-                <span>Tour Đà Nẵng, Hội An, Quảng Bình - PYS Travel</span>
+                <span>Tour <b>Đà Nẵng, Hội An, Quảng Bình - PYS Travel</b></span>
                 <br>
-                <span>Điều hành: Nguyễn Việt</span>
+                <span>Điều hành: <b style="text-decoration: underline">Nguyễn Việt</b></span>
                 <br>
                 <span>Ghi chú: 20 khách, hội cựu chiến binh</span>
               </div>
