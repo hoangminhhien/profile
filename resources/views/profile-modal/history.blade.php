@@ -18,18 +18,14 @@
 			</div>
 			<label style="font-weight: bold;">Địa chỉ diễn ra sự kiện <strong style="color: red">(*)</strong></label>
 			<div class="form-group row">
-				<input type="text" name="start_date" class="form-control start_date">
+				<div class="col">
+					<input type="text" name="start_date" class="form-control start_date">
+				</div>
 			</div>
 			<div class="form-group row">
 				<div class="col">
 					<label style="font-weight: bold;">Mô tả về sự kiện</label>
 					<textarea class="form-control" rows="4" id="description"></textarea>
-				</div>
-			</div>
-			<small class="form-text text-muted">Tải lên hình ảnh về hoạt động của bạn</small>
-			<div class="row">
-				<div class="col">
-					<button type="button" class="btn btn-success text-success" style="background-color: transparent">Tải ảnh</button>
 				</div>
 			</div>
 		</form>

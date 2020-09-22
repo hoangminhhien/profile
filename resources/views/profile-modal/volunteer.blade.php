@@ -37,12 +37,6 @@
 					<textarea class="form-control" rows="4" placeholder="Mô tả chi tiết về quá trình tham gia tình nguyện"></textarea>
 				</div>
 			</div>
-			<small class="form-text text-muted">Tải lên hình ảnh về hoạt động của bạn</small>
-			<div class="row">
-				<div class="col">
-					<button type="button" class="btn btn-success text-success" style="background-color: transparent">Tải ảnh</button>
-				</div>
-			</div>
 		</form>
 	</div>
 </div>

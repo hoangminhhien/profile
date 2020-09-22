@@ -5,9 +5,9 @@
                 <h5 class="modal-title">Modal title</h5>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-            <div class="modal-body">
-            <iframe id="iframe" width="100%" height="300px" src="">
-            </iframe>
+            <div class="modal-body" id="content-modal">
+           <!--  <iframe id="iframe" width="100%" height="300px" src="">
+            </iframe> -->
             </div>
             <div class="modal-footer text-center">
                 <div class="text-center">
