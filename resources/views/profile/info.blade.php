@@ -15,7 +15,7 @@
       <img src="https://w.ladicdn.com/s650x800/5b7d1ceca2a5d632f9a1f381/vgx-fwi320200704045226.jpg">
     </div>
 
-    <div class="row">
+    <div class="row mt-2">
       <div class="col-sm offset-5 offset-sm-4 offset-md-3 offset-xl-3 pl-4">
         <div class="row">
           <div class="col-sm">
