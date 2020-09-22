@@ -31,7 +31,7 @@
     <div class="row">
       <div class="col-9 col-xl-10">
         <div id="schedule">
-          <a href="#" class="btn w-100">
+          <a href="#" class="btn btn-warning text-dark font-weight-bold w-100">
             Đặt lịch với HDV
           </a>
         </div>

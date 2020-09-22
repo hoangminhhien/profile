@@ -118,7 +118,7 @@ header #user {
   width: 10em;
   height: 2em;
   display: inline-block;
-  background-color: #e86930;
+  /* background-color: #e86930; */
   color: white;
   font-weight: bold;
   padding: 0.2em;
@@ -169,7 +169,7 @@ header #user {
 }
 
 #schedule .btn {
-  background-color: #e88e30;
+  /* background-color: #e88e30; */
   color: white;
   border-radius: 0.5em;
 }

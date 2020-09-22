@@ -53,7 +53,7 @@
             <span>Liên hệ</span>
             <i class="fas fa-phone-square-alt"></i>
           </a>
-          <a id="contact-book" class="btn">
+          <a id="contact-book" class="btn btn-danger">
             <span>ĐẶT LỊCH TOUR</span>
             <i class="fas fa-chevron-circle-right"></i>
           </a>
