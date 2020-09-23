@@ -27,43 +27,39 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-8">
+      <div class="col-12 col-xl-8">
         <div class="index">
           <p>Quản lý lịch đi tour</p>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-8">
-        <div class="row">
-          <div class="col-sm-8">
-            <iframe
-              src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FHo_Chi_Minh&amp;src=dmkudmlldG5hbWVzZSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showTz=0&amp;showNav=1&amp;showTitle=0&amp;showPrint=0&amp;showDate=1"
-              style="border:solid 1px #777" width="100%" height="300em" frameborder="0" scrolling="no">
-            </iframe>
+      <div class="col-sm-8 col-xl-5">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FHo_Chi_Minh&amp;src=dmkudmlldG5hbWVzZSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%230B8043&amp;showTz=0&amp;showNav=1&amp;showTitle=0&amp;showPrint=0&amp;showDate=1"
+          style="border:solid 1px #777" width="100%" height="300em" frameborder="0" scrolling="no">
+        </iframe>
+      </div>
+      <div class="col-sm-4">
+        <div id="schedule-note">
+          <div id="available">
+            <div id="available-icon"></div>
+            <div id="available-text">
+              <span>Có thể nhận tour (available)</span>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <div id="schedule-note">
-              <div id="available">
-                <div id="available-icon"></div>
-                <div id="available-text">
-                  <span>Có thể nhận tour (available)</span>
-                </div>
-              </div>
 
-              <div id="blocked">
-                <div id="blocked-icon"></div>
-                <div id="blocked-text">
-                  <span>Đã nhận lịch (blocked)</span>
-                </div>
-              </div>
+          <div id="blocked">
+            <div id="blocked-icon"></div>
+            <div id="blocked-text">
+              <span>Đã nhận lịch (blocked)</span>
+            </div>
+          </div>
 
-              <div id="holiday">
-                <div id="holiday-icon"></div>
-                <div id="holiday-text">
-                  <span>Ngày nghỉ (không nhận lịch)</span>
-                </div>
-              </div>
+          <div id="holiday">
+            <div id="holiday-icon"></div>
+            <div id="holiday-text">
+              <span>Ngày nghỉ (không nhận lịch)</span>
             </div>
           </div>
         </div>
@@ -71,62 +67,54 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-8 col-xl-5">
+        <a href="#" id="btn-open-schedule" class="btn btn-warning font-weight-bold w-100">
+          Mở lịch làm việc để nhận tour
+        </a>
+        <p>Mở những ngày bạn có thể nhận tour để các công ty có thể đặt lịch với bạn</p>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-12 col-sm-6 col-xl-4">
         <div class="row">
-          <div class="col-sm-8">
-            <a href="#" id="btn-open-schedule" class="btn btn-warning font-weight-bold w-100">
-              Mở lịch làm việc để nhận tour
+          <div class="col-6 col-sm-12 pr-0">
+            <a href="#" id="add-schedule-btn" class="btn btn-success w-100 font-weight-bold">
+              + Thêm lịch đi tour
             </a>
-            <p>Mở những ngày bạn có thể nhận tour để các công ty có thể đặt lịch với bạn</p>
+          </div>
+          <div class="col-6 col-sm-12">
+            <span>Khoá (block) ngày bạn đã nhận tour để không bị overbook</span>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="col-sm-8">
+      <div class="col-12 col-sm-6 col-xl-4">
         <div class="row">
-
-          <div class="col-12 col-sm-6">
-            <div class="row">
-              <div class="col-6 col-sm-12 pr-0">
-                <a href="#" id="add-schedule-btn" class="btn btn-success w-100 font-weight-bold">
-                  + Thêm lịch đi tour
-                </a>
-              </div>
-              <div class="col-6 col-sm-12">
-                <span>Khoá (block) ngày bạn đã nhận tour để không bị overbook</span>
-              </div>
-            </div>
+          <div class="col-6 col-sm-12 pr-0">
+            <a href="#" id="add-holiday-btn" class="btn btn-danger w-100 font-weight-bold">+ Thêm ngày nghỉ</a>
           </div>
-
-          <div class="col-12 col-sm-6">
-            <div class="row">
-              <div class="col-6 col-sm-12 pr-0">
-                <a href="#" id="add-holiday-btn" class="btn btn-danger w-100 font-weight-bold">+ Thêm ngày nghỉ</a>
-              </div>
-              <div class="col-6 col-sm-12">
-                <span>Đóng lịch các ngày bạn muốn nghỉ ngơi</span>
-              </div>
-            </div>
+          <div class="col-6 col-sm-12">
+            <span>Đóng lịch các ngày bạn muốn nghỉ ngơi</span>
           </div>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-12">
         <ul class="timeline">
           <li>
             <div class="row">
-              <div class="col-10 col-sm-4">
+              <div class="col-10 col-sm-4 col-xl-3">
                 <i>
                   13 tháng 8, 2020 | 9:00 am <br>
                   | <br>
                   14 tháng 8, 2020 | 6:00 pm
                 </i>
               </div>
-              <div class="col-10 col-sm-6">
+              <div class="col-10 col-sm-6 col-xl-4">
                 <span>Tour <b>Phú Quốc - PYS Travel</b></span>
                 <br>
                 <span>Điều hành: <b style="text-decoration: underline">Nguyễn Việt</b></span>
@@ -140,14 +128,14 @@
           </li>
           <li>
             <div class="row">
-              <div class="col-10 col-sm-4">
+              <div class="col-10 col-sm-4 col-xl-3">
                 <i>
                   20 tháng 8, 2020 | 9:00 am <br>
                   | <br>
                   24 tháng 8, 2020 | 6:00 pm
                 </i>
               </div>
-              <div class="col-10 col-sm-6">
+              <div class="col-10 col-sm-6 col-xl-4">
                 <span>Tour <b>Đà Nẵng, Hội An, Quảng Bình - PYS Travel</b></span>
                 <br>
                 <span>Điều hành: <b style="text-decoration: underline">Nguyễn Việt</b></span>
@@ -159,21 +147,16 @@
               </div>
             </div>
           </li>
+        </ul>
       </div>
-      </ul>
     </div>
 
     <div class="row">
-      <div class="col-sm-8">
-        <div class="row">
-          <div class="col-12 col-sm-12 text-center">
-            <a href="#" id="tour-history" class="btn btn-warning font-weight-bold">Xem lịch sử tour</a>
-          </div>
-        </div>
+      <div class="col-12 col-sm-12 col-xl-8 text-center">
+        <a href="#" id="tour-history" class="btn btn-warning font-weight-bold">Xem lịch sử tour</a>
       </div>
-
     </div>
-  </div>
+
   </div>
 </body>
 

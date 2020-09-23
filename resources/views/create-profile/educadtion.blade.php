@@ -1,8 +1,7 @@
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<div id="volunteer" class="card class-border" style="border: none;">
+<div id="eduction" class="card class-border" style="border: none;">
   <div class="card-body">
     <strong style="font-size: 20px">
-      Chương trình tình nguyện tham gia
+      Học vấn
     </strong>
     <button type="button" class="btn btn-link" v-on:click="addEducation">
       <i class="fa fa-plus" aria-hidden="true" style="cursor: pointer;"></i>
@@ -14,19 +13,19 @@
       </div>
       <div class="col-md-7">
         <div class="form-group row">
-          <label class="col-md-4 col-form-label font-weight-bold">Tên hoạt động</label>
+          <label class="col-md-4 col-form-label font-weight-bold">Tên trường</label>
           <div class="col-md-8">
             <input type="text" class="form-control">
           </div>
         </div>
         <div class="form-group row">
-          <label class="col-md-4 col-form-label font-weight-bold">Vị trí tham gia</label>
+          <label class="col-md-4 col-form-label font-weight-bold">Tên chuyên ngành</label>
           <div class="col-md-8">
             <input type="text" class="form-control">
           </div>
         </div>
         <div class="form-group row">
-          <label class="col-md-4 col-form-label font-weight-bold">Mô tả</label>
+          <label class="col-md-4 col-form-label font-weight-bold">Xếp loại</label>
           <div class="col-md-8">
             <input type="text" class="form-control">
           </div>
@@ -41,9 +40,10 @@
     </div>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script type="text/javascript">
   new Vue({
-        el: '#volunteer',
+        el: '#eduction',
         data() {
             return {
             	listEduction: []
